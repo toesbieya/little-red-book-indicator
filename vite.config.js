@@ -5,12 +5,12 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/dist/little-red-book-indicator/',
+  base: '/little-red-book-indicator/dist/',
   plugins: [
     vue(),
   ],
   build: {
-    outDir: 'dist/little-red-book-indicator'
+    outDir: 'dist'
   },
   resolve: {
     alias: {
